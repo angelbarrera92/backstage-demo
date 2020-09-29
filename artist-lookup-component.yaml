@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: artist-lookup-2
+  description: Artist Lookup 2
+  annotations:
+    jenkins.io/github-folder: 'folder-name-1/job-name'
+  tags:
+    - java
+    - data
+spec:
+  type: service
+  lifecycle: experimental
+  owner: angel@example.com
